@@ -1,18 +1,18 @@
-# Large Reporting Template – 
+# Large Reporting Template
 This repository contains the code, data, and assets used to generate 35 + data visualizations. The final deliverable is a PowerPoint presentation composed of approximately 33 charts and tables, summarizing key insights from survey responses and related reference data.
 
 ## Project Overview
 
-Survey responses are collected via Qualtrics and exported as CSV files.
-Python scripts are used to merge, clean, and enrich the raw survey exports into a single analytic data file.
+Input data are collected and exported as CSV files.
+Python scripts are used to merge, clean, and enrich the raw exports into a single analytic data file.
 R scripts generate formatted charts and summary tables from the merged dataset.
-Chart outputs are saved as PNG files and manually assembled into a PowerPoint presentation.
+Chart outputs are saved as PNG files or manually assembled into a PowerPoint presentation.
 
 
 ## Repository Structure
 
 ```
-Quarterly_Summary_Report_PostDP/
+Reporting Template
 ├─ Summary Report - R Charts/
 │  ├─ 00. Archive/
 │  │  └─ Archived or deprecated R chart scripts retained for reference
@@ -25,7 +25,7 @@ Quarterly_Summary_Report_PostDP/
 │
 ├─ Survey Data/
 │  ├─ All CSVs/
-│  │  └─ Raw Qualtrics survey exports
+│  │  └─ Raw data
 │  │
 │  ├─ Python scripts
 │  │  ├─ Step_1_combine_qualtrics.py
@@ -49,7 +49,7 @@ Quarterly_Summary_Report_PostDP/
 ## Current Workflow
 
 ### Data Collection
-Survey responses are exported from Qualtrics as CSV files and placed in Survey Data/All CSVs/.
+Data is stored as CSV files and placed in Survey Data/All CSVs/.
 
 
 ### Data Preparation (Python)
