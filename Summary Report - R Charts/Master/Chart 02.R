@@ -9,7 +9,7 @@ library(readr)
 build_slide <- function(
   source_file = "00 Source data file.csv",
   layout = "Content Only",
-  master = "NISS Theme",
+  master = "Theme",
   fullsize = FALSE
 ) {
 
